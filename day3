@@ -8,7 +8,7 @@ for(let each_product of products){
 console.log(new_arr)
 
 
-//2
+//2.................................
 
 let items = "";
 products.forEach(function(product) {
@@ -18,3 +18,23 @@ products.forEach(function(product) {
 });
 
 console.log(items)
+
+
+//3..................................
+
+let total_price = 0
+products.forEach(function(product) {
+    total_price += product.price * 1
+})
+console.log(total_price)
+
+
+//4...................................
+
+let arr = []
+products.forEach(function(product){
+    if (product.category == 'Electronics'){
+        arr.push(product.name)
+    }
+})
+console.log(arr)
