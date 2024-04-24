@@ -13,7 +13,7 @@ console.log(new_arr)
 let items = "";
 products.forEach(function(product) {
   if (product.price > 50) {
-    items += product.id + "\n";
+    items += product.name + "\n";
   }
 });
 
