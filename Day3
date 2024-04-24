@@ -1,0 +1,20 @@
+let students = [
+    {name: 'Rahul',
+    age: 20,
+    city: 'Chennai'
+    },
+    {name: 'Priya',
+    age: 21,
+    city: 'Bengaluru'
+    },
+    {name: 'Swathi',
+    age: 19,
+    city: 'Kochi'
+    }
+]
+
+let message = "";
+for (let each_stu of students){
+    message += each_stu.name + " " + each_stu.city + "\n";
+}
+console.log(message);
