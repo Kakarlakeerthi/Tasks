@@ -6,3 +6,15 @@ for(let each_product of products){
 }
 
 console.log(new_arr)
+
+
+//2
+
+let items = "";
+products.forEach(function(product) {
+  if (product.price > 50) {
+    items += product.id + "\n";
+  }
+});
+
+console.log(items)
